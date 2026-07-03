@@ -1,2 +1,0 @@
-[console_scripts]
-reactive_gap_follow_node = reactive_gap_follow.reactive_gap_follow_node:main
