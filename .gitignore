@@ -1,6 +1,33 @@
+# ROS 2 / colcon
 build/
 install/
 log/
+
+# Python
 *.egg-info/
 __pycache__/
 *.pyc
+*.pyo
+
+# Entornos virtuales (si alguna vez usas uno)
+venv/
+.venv/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# ROS bags (grabaciones, suelen pesar mucho)
+*.bag
+*.db3
+rosbag2_*/
+
+# Archivos temporales / respaldo de nano
+*~
+*.bak
